@@ -25,8 +25,6 @@
 	<img <?php echo "alt=".$vecteur_Description_Images[$i]; ?> <?php echo "src=".$dossier_Images.$sous_Dossier_Images.$vecteur_Titre_Images[$i]; ?> />
 	
 	<!-- Lien vers les parties principales -->
-	<!-- 2 Niveaux - 8 colonnes - offset 2 -->
-	<!-- VIDE REMPLIE VIDE REMPLIE -->
 	<div class="row">
 		<!-- Bannière -->
 		<div class="col-lg-6">
@@ -53,7 +51,6 @@
 		</div>
 	</div>
 	
-	<!-- REMPLIE VIDE REMPLIE VIDE -->
 	<div class="row">
 		<?php $i++; ?>
 		
