@@ -1,0 +1,61 @@
+#Brand_Name
+{
+	/* Police -Texte */
+	color : white;
+	transition : color 0.5s;
+}
+
+#Brand_Name:hover
+{
+	color : orange;
+}
+
+#Menu_Principale
+{
+	/* Bordures */
+	border-bottom : 1px solid white;
+	
+	/* transitions */
+	transition : border-bottom-color 0.5s;
+}
+
+#Menu_Principale:hover
+{
+	border-bottom-color : orange;
+}
+
+#Menu_Principale li a
+{
+	/* Police - texte */
+	color : white;
+	text-align : center;
+	
+	/* Forme */
+	padding : 0px;
+	margin : 15px;
+	
+	
+	/* Bordure */
+	border : 2px white solid;
+	
+	/* Transition */
+	transition : border-color 0.5s, border-radius 0.5s, padding 0.5s, margin 0.5s;
+	
+}
+
+#Menu_Principale li a:hover
+{
+	/* Police */
+	color : white;
+	
+	/* Forme */
+	padding : 5px;
+	margin : 10px;
+	
+	/* Bordure */
+	border-color : orange;
+	border-radius : 10px;
+	
+	/* Arrière-plan */
+	background : none !important;
+}

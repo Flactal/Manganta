@@ -1,0 +1,19 @@
+header
+{
+	/* Arrière-plan */
+	background-image : url('Images/Site/Nuages.jpg');
+	background-position : bottom;
+	
+	/* Format */
+	height : 600px;
+	width : 100%;
+	
+	/* Affichage */
+	z-index : -1;
+	
+	/* Placement */
+	position : fixed;
+	top : 0px;
+	left : 0px;
+	
+}
