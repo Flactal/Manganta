@@ -39,6 +39,7 @@
 		<div class="col-lg-2">
 			<a <?php echo "href=".$vecteur_Onglets[$i]; ?> >
 				<img class="img-responsive img-circle" <?php echo "alt=".$vecteur_Description_Images[$i]; ?> <?php echo "src=".$dossier_Images.$sous_Dossier_Images.$vecteur_Titre_Images[$i]; ?> />
+				<p>SAMPLE TEXT</p>
 			</a>
 		</div>
 		
@@ -47,6 +48,7 @@
 		<div class="col-lg-offset-2 col-lg-2">
 			<a <?php echo "href=".$vecteur_Onglets[$i]; ?> >
 				<img class="img-responsive img-circle" <?php echo "alt=".$vecteur_Description_Images[$i]; ?> <?php echo "src=".$dossier_Images.$sous_Dossier_Images.$vecteur_Titre_Images[$i]; ?> />
+				<p>SAMPLE TEXT</p>
 			</a>
 		</div>
 	</div>
@@ -57,6 +59,7 @@
 		<div class="col-lg-offset-8 col-lg-4">
 			<a <?php echo "href=".$vecteur_Onglets[$i]; ?> >
 				<img class="img-responsive img-circle" <?php echo "alt=".$vecteur_Description_Images[$i]; ?> <?php echo "src=".$dossier_Images.$sous_Dossier_Images.$vecteur_Titre_Images[$i]; ?> />
+				<p>SAMPLE TEXT</p>
 			</a>
 		</div>
 	</div>
