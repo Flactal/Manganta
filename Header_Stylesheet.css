@@ -1,9 +1,12 @@
 header
 {
-	/* Arrière-plan */
-	background-image : url('Images/Site/Nuages.jpg');
-	background-position : bottom;
-	
+	/* Positionnement */
+	margin-top : 12px;
+	margin-bottom : 13px;
+}
+
+header > img
+{
 	/* Format */
 	height : 600px;
 	width : 100%;
@@ -11,9 +14,29 @@ header
 	/* Affichage */
 	z-index : -1;
 	
-	/* Placement */
+	/* Positionnement */
 	position : fixed;
 	top : 0px;
 	left : 0px;
+}
+
+header div.jumbotron
+{
+	/* Police - Texte */
+	color : white;
 	
+	/* Arrière-plan */
+	background : none !important;
+}
+
+header div.jumbotron p
+{
+	/* Bordures */
+	border-bottom : 1px solid white;
+}
+
+header div.row img
+{
+	/* Forme */
+	height : 250px;
 }
