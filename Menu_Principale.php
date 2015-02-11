@@ -1,3 +1,11 @@
+<?php
+	/** MENU **/
+	$nombre_Onglets = 4;
+	$nombre_Colonnes_Disponible_Onglets = 12;
+	$taille_Colonnes = 2; /* Valeur choisie par défaut */
+	$taille_Offset_Colonnes = $nombre_Colonnes_Disponible_Onglets - ($nombre_Onglets * $taille_Colonnes);
+?>
+
 <nav id="Menu_Principale" class="row">
 	<!-- Titre Site -->
 	<div class="col-lg-2 navbar-header">
