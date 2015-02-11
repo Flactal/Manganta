@@ -27,5 +27,10 @@
 			include_once 'Header.php';
 		?>
 		
+		<!-- Sous-Menu -->
+		<?php
+			include_once 'Menu_Accueil.php';
+		?>
+		
 	</body>
 </html>
