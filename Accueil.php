@@ -1,3 +1,7 @@
+<?php
+	include_once 'Variables.php';
+?>
+
 <!doctype html>
 <html>
 	<head>
