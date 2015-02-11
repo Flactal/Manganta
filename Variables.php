@@ -4,7 +4,7 @@
 	
 	/** GENERAL **/
 	$titre_Site = "Test";
-	$texte_Banière = "Testons la bannière";
+	$texte_Banniere = "Testons la bannière";
 	
 	
 	/** Noms des onglets **/
