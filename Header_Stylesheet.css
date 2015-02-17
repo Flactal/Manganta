@@ -1,29 +1,11 @@
-header
-{
-	/* Positionnement */
-	margin-top : 12px;
-	margin-bottom : 13px;
-}
-
-header > img
-{
-	/* Format */
-	height : 600px;
-	width : 100%;
-	
-	/* Affichage */
-	z-index : -1;
-	
-	/* Positionnement */
-	position : absolute;
-	top : 0px;
-	left : 0px;
-}
-
 header div.jumbotron
 {
 	/* Police - Texte */
 	color : white;
+	
+	/* forme */
+	max-height : 250px;
+	margin : 0px;
 	
 	/* Arrière-plan */
 	background : none !important;
@@ -35,26 +17,58 @@ header div.jumbotron p
 	border-bottom : 1px solid white;
 }
 
+header .col-img
+{
+	/* forme */
+	padding : 0px;
+}
+
 header div.row img
 {
 	/* Forme */
-	height : 250px;
+	width : 100%;
+	padding : 10px;
 }
 
-div a img
+header > div.row
+{
+	/* Placement */
+	padding-top : 100px;
+}
+
+/* Change la propriété padding-top si l'écran est inf à 768px */
+@media all and (max-width : 768px)
+{
+	header > div.row
+	{
+		/* Placement */
+		padding-top : 0px;
+	}
+}
+
+header div div div.row
+{
+	/* Forme */
+	min-height : 250px;
+}
+
+header div a img
 {
 	/* Positionnement */
 	position : absolute;
 	
 	/* Affichage */
 	z-index : 1;
+	
 }
 
-div a p
+header div a p
 {
-	position : absolute;
-	top : 200px;
-	left : 90px;
+	position : relative;
+	
+	padding-top : 70%;
+	
+	text-align : center;
 	
 	z-index : 2;
 }
