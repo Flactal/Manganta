@@ -14,18 +14,23 @@
 		<link rel="stylesheet" type="text/css" href="Accueil_Stylesheet.css">
 		<link rel="stylesheet" type="text/css" href="Menu_Principale_Stylesheet.css">
 		<link rel="stylesheet" type="text/css" href="Header_Stylesheet.css">
+		<link rel="stylesheet" type="text/css" href="Menu_Accueil_Stylesheet.css">
 	</head>
 	
 	<body class="container-fluid">
-		<!-- Menu Principale -->
-		<?php
-			include_once 'Menu_Principale.php';
-		?>
 		
-		<!-- Header -->
-		<?php
-			include_once 'Header.php';
-		?>
+		<div id="Header_Background" class="row">
+			<!-- Menu Principale -->
+			<?php
+				include_once 'Menu_Principale.php';
+			?>
+			
+			<!-- Header -->
+			<?php
+				include_once 'Header.php';
+			?>
+		</div>
+		
 		
 		<!-- Sous-Menu -->
 		<?php
