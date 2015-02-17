@@ -1,3 +1,4 @@
+/** JUMBOTRON **/
 header div.jumbotron
 {
 	/* Police - Texte */
@@ -16,11 +17,39 @@ header div.jumbotron p
 	/* Bordures */
 	border-bottom : 1px solid white;
 }
+/** FIN JUMBOTRON **/
 
+/** 3 IMAGES **/
 header .col-img
 {
 	/* forme */
 	padding : 0px;
+}
+
+header div.row a
+{
+	/* Police - Texte */
+	font-size : 20px;
+	text-decoration : none;
+	color : #3c1f11;
+}
+
+#Animes_img img
+{
+	/* Bordure */
+	border-color : #f8941e;
+}
+
+#Mangas_img img
+{
+	/* Bordure */
+	border-color : #feefc7;
+}
+
+#BDD_img img
+{
+	/* Bordure */
+	border-color : #2b173c;
 }
 
 header div.row img
@@ -28,6 +57,24 @@ header div.row img
 	/* Forme */
 	width : 100%;
 	padding : 10px;
+	
+	/* Transitions */
+	transition : padding 0.5s, border-width 0.5s;
+}
+
+header div.row a img
+{
+	/* Bordure */
+	border : 0px solid;
+}
+
+header div.row a:hover img
+{
+	/* Forme */
+	padding : 20px;
+	
+	/* Bordure */
+	border-width : 10px;
 }
 
 header > div.row
@@ -37,7 +84,7 @@ header > div.row
 }
 
 /* Change la propriété padding-top si l'écran est inf à 768px */
-@media all and (max-width : 768px)
+@media all and (max-width : 767px)
 {
 	header > div.row
 	{
@@ -64,11 +111,11 @@ header div a img
 
 header div a p
 {
+	/* Positionnement */
 	position : relative;
-	
 	padding-top : 70%;
-	
-	text-align : center;
-	
 	z-index : 2;
+	
+	/* Police - Texte */
+	text-align : center;
 }

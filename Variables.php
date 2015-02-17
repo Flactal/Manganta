@@ -3,8 +3,8 @@
 	$i;
 	
 	/** GENERAL **/
-	$titre_Site = "Test";
-	$texte_Banniere = "Testons la bannière";
+	$titre_Site = "Manganta";
+	$texte_Banniere = "L'animation Japonnaise et ses secrets.";
 	
 	
 	/** Noms des onglets **/
@@ -12,9 +12,8 @@
 	
 	$vecteur_Onglets[0] = "Animes";
 	$vecteur_Onglets[1] = "Mangas";
-	$vecteur_Onglets[2] = "Base_de_données";
+	$vecteur_Onglets[2] = "Base de données";
 	$vecteur_Onglets[3] = "Connexion";
-	
 	
 	$vecteur_Href_Onglets = array();
 	
@@ -24,9 +23,31 @@
 	$vecteur_Href_Onglets[3] = "Connexion.php";
 	/** FIN MENU **/
 	
+	/** Sous-Onglets **/
+	$vecteur_Sous_Onglets = array();
+	
+	$vecteur_Sous_Onglets[0] = "News";
+	$vecteur_Sous_Onglets[1] = "Titre 2";
+	$vecteur_Sous_Onglets[2] = "Titre 3";
+	$vecteur_Sous_Onglets[3] = "Titre 4";
+	
+	$vecteur_Sous_Href_Onglets = array();
+	
+	$vecteur_Sous_Href_Onglets[0] = "News.php";
+	$vecteur_Sous_Href_Onglets[1] = "Mangas.php";
+	$vecteur_Sous_Href_Onglets[2] = "BDD.php";
+	$vecteur_Sous_Href_Onglets[3] = "Connexion.php";
+	/** FIN SOUS-ONGLETS **/
+	
 	/* Chemin d'acces au images */
 	$dossier_Images = "Images/";
 	$sous_Dossier_Images = "Site/";
+	
+	$vecteur_Id_Lien_Images = array();
+	
+	$vecteur_Id_Lien_Images[0] = "Animes";
+	$vecteur_Id_Lien_Images[1] = "Mangas";
+	$vecteur_Id_Lien_Images[2] = "BDD";
 	
 	$vecteur_Titre_Images = array();
 	
