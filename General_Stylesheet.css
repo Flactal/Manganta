@@ -1,0 +1,34 @@
+#Header_Background
+{
+	/** Arrière-plan **/
+	background-image : url('Images/Site/Nuages.jpg');
+	background-position : 0px -160px;
+	background-repeat : no-repeat;
+	
+	/* Forme */
+	height : 700px;
+}
+
+@media all and (max-width : 1200px)
+{
+	#Header_Background
+	{
+		/** Arrière-plan **/
+		background-position : 0px -360px;
+		
+		/* Forme */
+		height : 500px;
+	}
+}
+
+@media all and (max-width : 767px)
+{
+	#Header_Background
+	{
+		/** Arrière-plan **/
+		background-position : 0px -160px;
+		
+		/* Forme */
+		height : 700px;
+	}
+}

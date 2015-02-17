@@ -17,6 +17,9 @@
 	
 	/* transitions */
 	transition : border-bottom-color 0.5s;
+	
+	/* Forme */
+	max-height : 238px;
 }
 
 #Menu_Principale:hover
