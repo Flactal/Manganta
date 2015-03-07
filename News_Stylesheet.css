@@ -1,0 +1,141 @@
+.News h3 + p
+{
+	text-align : center;
+}
+
+#Carousel
+{
+	/** Forme **/
+	padding : 0px;
+	margin-top : 30px;
+	margin-bottom : 50px;
+}
+
+#Carousel .carousel-inner
+{
+	/** Forme **/
+	padding : 0px;
+}
+
+#Carousel .item
+{
+	/** Forme **/
+	height : 400px;
+	width : 100%;
+	padding : 0px;
+}
+
+@media ALL and (min-width : 2560px)
+{
+	.item img
+	{
+		position : relative !important;
+	}
+}
+
+.item img
+{
+	/** Forme **/
+	position : absolute;
+	margin : auto;
+	width : 100%;
+	max-width : 2560px !important;
+}
+
+
+/** Re-cadrage **/
+@media ALL and (min-width : 1200px)
+{
+	#Img-News-0
+	{
+		margin-top : -20%;
+	}
+
+	#Img-News-1
+	{
+		margin-top : -6%;
+	}
+
+	#Img-News-2
+	{
+		margin-top : -20%;
+	}
+
+	#Img-News-3
+	{
+		margin-top : -20%;
+	}
+}
+
+
+@media ALL and (max-width : 650px)
+{
+	.item img
+	{
+		width : 650px;
+	}
+}
+
+@media ALL and (max-width : 500px)
+{
+	/** Si nécessaire, on décale par rapport à la droite (left négatif obligatoire) décalage-max : -150px **/
+	#Img-News-0
+	{
+		margin-left : -75px;
+	}
+
+	#Img-News-1
+	{
+		margin-left : -0px;
+	}
+
+	#Img-News-2
+	{
+		margin-left : -0px;
+	}
+
+	#Img-News-3
+	{
+		margin-left : -50px;
+	}
+}
+
+.item a
+{
+	/** Forme **/
+	position : absolute;
+	width : inherit;
+	height : inherit;
+	
+	/* Texte */
+	text-decoration : none !important;
+}
+
+a .boite-survol
+{
+	/* Forme */
+	width : inherit;
+	height : inherit;
+	
+	/* Display */
+	background-color : rgba(255,255,255, 0);
+	opacity : 0;
+	
+	transition : background-color 0.5s, opacity 0.5s;
+}
+
+a .boite-survol:hover
+{
+	/* Display */
+	background-color : rgba(255,255,255, 0.1);
+	opacity : 1;
+}
+
+a .boite-survol p
+{
+	/* Texte - Police */
+	line-height : 400px;
+	text-align : center;
+	font-size : 70px;
+	color : white;
+}
