@@ -1,69 +1,81 @@
 <?php
 	/*=== Maintenance ===*/
-	$i;
 	
+	
+	/*************/
 	/** GENERAL **/
-	$titre_Site = "Manganta";
-	$texte_Banniere = "L'animation Japonnaise et tout ce qu'il faut en savoir.";
+	/*************/
+	$i;
+	$j;
+	$Titre_Site = "Manganta";
+	$Texte_Banniere = "L'animation Japonnaise et tout ce qu'il faut en savoir.";
 	
-	
+	/**********************/
 	/** Noms des onglets **/
-	$vecteur_Onglets = array();
+	/**********************/
+	$Onglets = array();
+	$Onglets[0] = "Animes";
+	$Onglets[1] = "Mangas";
+	$Onglets[2] = "Base de données";
+	$Onglets[3] = "Connexion";
 	
-	$vecteur_Onglets[0] = "Animes";
-	$vecteur_Onglets[1] = "Mangas";
-	$vecteur_Onglets[2] = "Base de données";
-	$vecteur_Onglets[3] = "Connexion";
-	
-	$vecteur_Href_Onglets = array();
-	
-	$vecteur_Href_Onglets[0] = "Animes.php";
-	$vecteur_Href_Onglets[1] = "Mangas.php";
-	$vecteur_Href_Onglets[2] = "BDD.php";
-	$vecteur_Href_Onglets[3] = "Connexion.php";
+	$Href_Onglets = array();
+	$Href_Onglets[0] = "Animes.php";
+	$Href_Onglets[1] = "Mangas.php";
+	$Href_Onglets[2] = "BDD.php";
+	$Href_Onglets[3] = "Connexion.php";
 	/** FIN MENU **/
 	
+	/**************************/
 	/** Sous-Onglets ACCUEIL **/
-	$vecteur_Sous_Onglets = array();
+	/**************************/
+	$Sous_Onglets = array();
+	$Sous_Onglets[0] = "News";
+	$Sous_Onglets[1] = "Titre 2";
+	$Sous_Onglets[2] = "Titre 3";
+	$Sous_Onglets[3] = "Titre 4";
 	
-	$vecteur_Sous_Onglets[0] = "News";
-	$vecteur_Sous_Onglets[1] = "Titre 2";
-	$vecteur_Sous_Onglets[2] = "Titre 3";
-	$vecteur_Sous_Onglets[3] = "Titre 4";
-	
-	$vecteur_Sous_Href_Onglets = array();
-	
-	$vecteur_Sous_Href_Onglets[0] = "News.php";
-	$vecteur_Sous_Href_Onglets[1] = "Mangas.php";
-	$vecteur_Sous_Href_Onglets[2] = "BDD.php";
-	$vecteur_Sous_Href_Onglets[3] = "Connexion.php";
+	$Href_Sous_Onglets = array();
+	$Href_Sous_Onglets[0] = "News.php";
+	$Href_Sous_Onglets[1] = "Mangas.php";
+	$Href_Sous_Onglets[2] = "BDD.php";
+	$Href_Sous_Onglets[3] = "Connexion.php";
 	/** FIN SOUS-ONGLETS ACCUEIL **/
 	
+	/*****************************/
 	/* Chemin d'acces aux images */
-	$dossier_Images = "Images/";
-	$sous_Dossier_Images_Header = "Site/";
-	$sous_Dossier_Images_News = "News/";
+	/*****************************/
+	$Dossier_Images = "Images/";
+	$Sous_Dossier_Images_Header = "Site/";
+	$Sous_Dossier_Images_News = "News/";
 	
-	$vecteur_Id_Lien_Images = array();
+	/************/
+	/** HEADER **/
+	/************/
 	
-	$vecteur_Id_Lien_Images[0] = "Animes";
-	$vecteur_Id_Lien_Images[1] = "Mangas";
-	$vecteur_Id_Lien_Images[2] = "BDD";
+	/** Utile pour mettre une couleur spécifique à chaque image **/
+	$Id_Lien_Images = array();
 	
-	$vecteur_Titre_Images = array();
+	$Id_Lien_Images[0] = "Animes";
+	$Id_Lien_Images[1] = "Mangas";
+	$Id_Lien_Images[2] = "BDD";
 	
-	$vecteur_Titre_Images[0] = "nisekoi.png";
-	$vecteur_Titre_Images[1] = "spice_and_wolf.jpg";
-	$vecteur_Titre_Images[2] = "no_game_no_life.jpg";
+	$Titre_Images = array();
 	
-	$vecteur_Description_Images = array();
+	$Titre_Images[0] = "nisekoi.png";
+	$Titre_Images[1] = "spice_and_wolf.jpg";
+	$Titre_Images[2] = "no_game_no_life.jpg";
 	
-	$vecteur_Description_Images[0] = "Liens_Animes";
-	$vecteur_Description_Images[1] = "Liens_Mangas";
-	$vecteur_Description_Images[2] = "Liens_Base_de_données";
+	$Description_Images = array();
+	
+	$Description_Images[0] = "Liens_Animes";
+	$Description_Images[1] = "Liens_Mangas";
+	$Description_Images[2] = "Liens_Base_de_données";
 	/** FIN IMAGES **/
 	
+	/**********/
 	/** NEWS **/
+	/**********/
 	$Nombre_Image_News = 4;
 	$Date_image_News = "07/03/2015";
 	

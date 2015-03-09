@@ -4,8 +4,8 @@
 		<div class="col-lg-5 col-sm-5 col-xs-12">
 			<!-- Bannière -->
 			<div class="jumbotron">
-				<h1> <?php echo $titre_Site; ?> </h1>
-				<p> <?php echo $texte_Banniere; ?> </p>
+				<h1> <?php echo $Titre_Site; ?> </h1>
+				<p> <?php echo $Texte_Banniere; ?> </p>
 			</div>
 		</div>
 		
@@ -17,9 +17,9 @@
 					{
 						?>
 						<div class="col-img col-lg-4 col-sm-4 col-xs-4">
-							<a <?php echo "id=".$vecteur_Id_Lien_Images[$i]."_img"; ?> <?php echo "href=".$vecteur_Href_Onglets[$i]; ?> >
-								<img class="img-responsive img-circle" <?php echo "alt=".$vecteur_Description_Images[$i]; ?> <?php echo "src=".$dossier_Images.$sous_Dossier_Images_Header.$vecteur_Titre_Images[$i]; ?> />
-								<p><?php echo $vecteur_Onglets[$i]; ?></p>
+							<a <?php echo "id=".$Id_Lien_Images[$i]."_img"; ?> <?php echo "href=".$Href_Onglets[$i]; ?> >
+								<img class="img-responsive img-circle" <?php echo "alt=".$Description_Images[$i]; ?> <?php echo "src=".$Dossier_Images.$Sous_Dossier_Images_Header.$Titre_Images[$i]; ?> />
+								<p><?php echo $Onglets[$i]; ?></p>
 							</a>
 						</div>
 						<?php

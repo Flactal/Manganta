@@ -21,7 +21,7 @@
 		<!-- Wrapper for slides -->
 		<div class="carousel-inner col-lg-12" role="listbox">
 			<div class="item active col-lg-12 col-md-12 col-sm-12 col-xs-12">	
-				<img id="Img-News-0" src=<?php echo $dossier_Images.$sous_Dossier_Images_News.$Titre_Img_News[0].".".$Extension_Img_News[0]; ?> alt=<?php echo "Dernier wallpaper : ".$Header_Img_News[0]; ?>>
+				<img class="Img-News-0" src=<?php echo $Dossier_Images.$Sous_Dossier_Images_News.$Titre_Img_News[0].".".$Extension_Img_News[0]; ?> alt=<?php echo "'Dernier wallpaper : ".$Header_Img_News[0]."'"; ?>>
 				
 				<div class="carousel-caption">
 					<h4><?php echo $Header_Img_News[0]; ?></h4>
@@ -39,7 +39,7 @@
 				{
 				?>
 					<div class="item col-lg-12">
-						<img id=<?php echo "Img-News-".$i; ?> src=<?php echo $dossier_Images.$sous_Dossier_Images_News.$Titre_Img_News[$i].".".$Extension_Img_News[$i]; ?> alt=<?php echo "Dernier wallpaper : ".$Header_Img_News[$i]; ?>>
+						<img class=<?php echo "Img-News-".$i; ?> src=<?php echo $Dossier_Images.$Sous_Dossier_Images_News.$Titre_Img_News[$i].".".$Extension_Img_News[$i]; ?> alt=<?php echo "'Dernier wallpaper : ".$Header_Img_News[$i]."'"; ?>>
 						
 						<div class="carousel-caption">
 							<h4><?php echo $Header_Img_News[$i]; ?></h4>

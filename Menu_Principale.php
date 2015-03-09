@@ -1,9 +1,9 @@
 <?php
 	/** MENU **/
-	$nombre_Onglets = 4;
-	$nombre_Colonnes_Disponible_Onglets = 12;
-	$taille_Colonnes = 2; /* Valeur choisie par défaut */
-	$taille_Offset_Colonnes = $nombre_Colonnes_Disponible_Onglets - ($nombre_Onglets * $taille_Colonnes);
+	$Nombre_Onglets = 4;
+	$Nombre_Colonnes_Disponible_Onglets = 12;
+	$Taille_Colonnes = 2; /* Valeur choisie par défaut */
+	$Taille_Offset_Colonnes = $Nombre_Colonnes_Disponible_Onglets - ($Nombre_Onglets * $Taille_Colonnes);
 ?>
 
 <div class="col-lg-12">
@@ -16,15 +16,15 @@
 		<!-- Menu -->
 		<ul class="col-lg-10 nav navbar-nav">
 			<!-- offset si nécessaire -->
-			<li <?php echo "class=col-lg-".$taille_Offset_Colonnes; ?>></li>
+			<li <?php echo "class=col-lg-".$Taille_Offset_Colonnes; ?>></li>
 			
-			<!-- Affichage des éléments contenu dans vecteur_Onglets -->
+			<!-- Affichage des éléments contenu dans Onglets -->
 			<?php
-				for($i = 0; $i < $nombre_Onglets; $i++)
+				for($i = 0; $i < $Nombre_Onglets; $i++)
 				{
 					?>
-					<li <?php echo "class=col-lg-".$taille_Colonnes; ?>>
-						<a <?php echo "href=".$vecteur_Href_Onglets[$i]; ?>> <?php echo $vecteur_Onglets[$i]; ?> </a>
+					<li <?php echo "class=col-lg-".$Taille_Colonnes; ?>>
+						<a <?php echo "href=".$Href_Onglets[$i]; ?>> <?php echo $Onglets[$i]; ?> </a>
 					</li>
 					<?php
 				}

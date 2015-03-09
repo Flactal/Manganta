@@ -1,8 +1,8 @@
 <?php
 	/** MENU **/
-	$nombre_Onglets = 4;
-	$nombre_Colonnes_Disponible_Onglets = 12;
-	$taille_Colonnes = $nombre_Colonnes_Disponible_Onglets/$nombre_Onglets; /* Valeur choisie par défaut */
+	$Nombre_Onglets = 4;
+	$Nombre_Colonnes_Disponible_Onglets = 12;
+	$Taille_Colonnes = $Nombre_Colonnes_Disponible_Onglets/$Nombre_Onglets; /* Valeur choisie par défaut */
 ?>
 
 <div class="row">
@@ -10,13 +10,13 @@
 		<nav id="Sous_menu_Accueil" class="row navbar-default">
 			<!-- Sous-menu -->
 			<ul class="col-lg-12 nav navbar-nav">
-				<!-- Affichage des éléments contenu dans vecteur_Onglets -->
+				<!-- Affichage des éléments contenu dans Onglets -->
 				<?php
-					for($i = 0; $i < $nombre_Onglets; $i++)
+					for($i = 0; $i < $Nombre_Onglets; $i++)
 					{
 						?>
-						<li <?php echo "class=col-lg-".$taille_Colonnes; ?>>
-							<a <?php echo "href=".$vecteur_Sous_Href_Onglets[$i]; ?>> <?php echo $vecteur_Sous_Onglets[$i]; ?> </a>
+						<li <?php echo "class=col-lg-".$Taille_Colonnes; ?>>
+							<a <?php echo "href=".$Href_Sous_Onglets[$i]; ?>> <?php echo $Sous_Onglets[$i]; ?> </a>
 						</li>
 						<?php
 					}
